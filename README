@@ -1,0 +1,50 @@
+ruby-hoe
+------------------------------------------
+Hoe is a simple rake/rubygems helper for project Rakefiles. It generates 
+all the usual tasks for projects including rdoc generation, testing, 
+packaging, and deployment.
+
+Runtime requirements:
+  rake-0.7.2-1
+  ruby-1.8.6-1
+  ruby-rubyforge-0.4.5-1
+  rubygems-0.9.4-1
+
+Canonical website:
+  http://seattlerb.rubyforge.org/hoe/
+
+Canonical download:
+  http://rubyforge.org/projects/seattlerb/files
+
+-------------------------------------------
+
+Build instructions:
+  unpack ruby-hoe-1.5.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ruby-hoe-1.5.1-X.cygport all
+
+This will create:
+  /usr/src/ruby-hoe-1.5.1-X-src.tar.bz2
+  /usr/src/ruby-hoe-1.5.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/sow
+  /usr/lib/ruby/site_ruby/1.8/hoe.rb
+  /usr/share/doc/ruby-hoe-1.5.1/HISTORY.txt
+  /usr/share/doc/ruby-hoe-1.5.1/README.txt
+
+------------------
+
+Port Notes:
+
+----- version 1.5.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
