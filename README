@@ -6,9 +6,9 @@ packaging, and deployment.
 
 Runtime requirements:
   rake-0.7.2-1
-  ruby-1.8.6-1
+  ruby-1.8.6_p114-2
   ruby-rubyforge-0.4.5-1
-  rubygems-0.9.4-1
+  rubygems-1.2.0-1
 
 Canonical website:
   http://seattlerb.rubyforge.org/hoe/
@@ -19,15 +19,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ruby-hoe-1.5.1-X-src.tar.bz2
+  unpack ruby-hoe-1.7.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ruby-hoe-1.5.1-X.cygport all
+  cygport ./ruby-hoe-1.7.0-X.cygport all
 
 This will create:
-  /usr/src/ruby-hoe-1.5.1-X-src.tar.bz2
-  /usr/src/ruby-hoe-1.5.1-X.tar.bz2
+  /usr/src/ruby-hoe-1.7.0-X-src.tar.bz2
+  /usr/src/ruby-hoe-1.7.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -35,12 +35,15 @@ Files included in the binary package:
 
   /usr/bin/sow
   /usr/lib/ruby/site_ruby/1.8/hoe.rb
-  /usr/share/doc/ruby-hoe-1.5.1/HISTORY.txt
-  /usr/share/doc/ruby-hoe-1.5.1/README.txt
+  /usr/share/doc/ruby-hoe-1.7.0/HISTORY.txt
+  /usr/share/doc/ruby-hoe-1.7.0/README.txt
 
 ------------------
 
 Port Notes:
+
+----- version 1.7.0-1 -----
+Version bump.
 
 ----- version 1.5.1-1 -----
 Initial release for Cygwin.
