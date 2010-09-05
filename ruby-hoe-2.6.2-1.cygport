@@ -8,7 +8,5 @@ SRC_URI="mirror://rubyforge/seattlerb/${ORIG_PN}-${PV}.tgz"
 src_install() {
 	cd ${B}
 	dobin bin/sow
-
-	dodir ${RUBY_SITELIB}
-	cp -rL lib/* ${D}${RUBY_SITELIB}
+	doruby lib/*
 }
