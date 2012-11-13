@@ -1,6 +1,10 @@
 inherit rubygem
 
-
+NAME="ruby-hoe"
+VERSION=3.3.0
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Rake/RubyGems helper for project Rakefiles"
 DESCRIPTION="Hoe is a simple rake/rubygems helper for project Rakefiles. It
 generates all the usual tasks for projects including rdoc generation, testing,
 packaging, and deployment."
