@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-hoe"
-VERSION=3.12.0
+VERSION=3.16.1
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Rake/RubyGems helper for project Rakefiles"
